@@ -1,0 +1,129 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+  <title>Companion</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    body {
+      padding-top: 31px;
+      padding-bottom: 31px;
+    }
+
+    }
+  </style>
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="popup.js"></script>
+</head>
+
+<body>
+
+  <div id="0" class="typewriter">
+    <center>
+      <h1>Please wait a bit..</h1>
+      <h1>It should only take a few seconds..</h1>
+      <br>
+      <img src="images/ajax-loader.gif"></img>
+    </center>
+  </div>
+
+  <div class="page-hero d-flex align-items-center justify-content-center">
+    <div id="1" style="display:none;width: 500px;" class="card">
+      <img id="image" src="" class="card-img-top">
+      <div class="card-body">
+
+        <center><b><u>
+              <h5 id="BestGuessedLabel" class="card-title">
+                Best guessed label:
+              </h5>
+            </u></b>
+        </center>
+        <p id="Flag" class="card-text">Our API detected this content as NOT TOXIC/TOXIC.</p>
+
+      </div>
+
+
+      <ul class="list-group list-group-flush">
+
+        <li class="list-group-item"></li>
+
+        <li class="list-group-item">
+          <center><b><u>OCR-Text:</u></b></center>
+        </li>
+        <li id="ocr-text" class="list-group-item"></li>
+
+        <li class="list-group-item"></li>
+
+        <li class="list-group-item">
+          <center><b><u>Most common Keywords from RIS:</b></u></center>
+        </li>
+
+        <!-- MOST COMMON KEYWORDS -->
+        <p align="center">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#german" aria-expanded="false" aria-controls="collapseExample">
+            German
+          </button>
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#english" aria-expanded="false" aria-controls="collapseExample">
+            English
+          </button>
+        </p>
+        <div class="collapse" id="german">
+          <div class="card card-body">
+            <!-- GERMAN MOST COMMON KEYWORDS -->
+            <li id="KeywordsMostCommonDE" class="list-group-item"></li>
+          </div>
+        </div>
+        <div class="collapse" id="english">
+          <div class="card card-body">
+            <!-- ENGLISH MOST COMMON KEYWORDS -->
+            <li id="KeywordsMostCommonEN" class="list-group-item"></li>
+          </div>
+        </div>
+
+
+        <li class="list-group-item"></li>
+
+        <li class="list-group-item"><b><u>Further ressources:</b></u>
+          <br>Here you can find further ressources about pages where this image occur.
+          Our server did already classified the ressources for you to assist you.
+        </li>
+        <p align="center">
+          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#further-ressources" aria-expanded="false" aria-controls="collapseExample">
+            Show related web resources for the image
+          </button>
+        </p>
+        <div class="collapse" id="further-ressources">
+          <div class="card card-body">
+            <!-- GERMAN MOST COMMON KEYWORDS -->
+            <li id="FurtherRessources" class="list-group-item"></li>
+          </div>
+        </div>
+
+
+
+        <li class="list-group-item"></li>
+
+      </ul>
+      <div class="card-body">
+
+
+
+
+
+
+
+
+
+
+        <a href="#" class="card-link" id="close-window">Close Window</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="js/bootstrap.min.js"></script>
+
+</html>

@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+
+  "name": "Frontend BA",
+  "description": "Fetch the URLS from PixelFed",
+  "version": "1.0",
+  "default_locale": "en",
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "images/logo.png"
+  },
+  "browser_action": {
+    "default_title": "Hover descript",
+    "default_icon": "images/logo.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "scripts": ["instagram.js", "pixelfed.js", "jquery-3.5.1.min.js"]
+  },
+
+  "content_scripts": [{
+      "matches": ["http://www.pixelfed.de/*", "https://pixelfed.de/*", "http://127.0.0.1:5000/*", "http://testshop.314159265358979323846264338327950288419716939937510582097494459.de/wp-content/uploads/2020/05/Sample.json"],
+      "js": ["pixelfed_content.js", "jquery-3.5.1.min.js"]
+    },
+    {
+      "matches": ["http://www.instagram.com/*", "https://www.instagram.com/*"],
+      "js": ["instagram_content.js", "jquery-3.5.1.min.js"]
+    }
+  ]
+}

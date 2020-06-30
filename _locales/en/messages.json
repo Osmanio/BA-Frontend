@@ -1,0 +1,37 @@
+{
+  "extName": {
+    "message": "Companion - Generate Metadata",
+    "description": "Extension name."
+  },
+  "BestGuessedLabel": {
+    "message": "Best guessed label: ",
+    "description": ""
+  },
+  "ImageFreeOfToxicContent": {
+    "message": "The image seems to be free of toxic content. "
+  },
+  "NoRelatedImages": {
+    "message": "The companion could not find any related images to your query.. "
+  },
+  "NoRelatedImagesToClassify": {
+    "message": "The companion could not find any related images to your query and so it could not classify it. "
+  },
+  "ToxicKeywordsFound": {
+    "message": "The image can contain toxic content 'bad words'. Please pay attention! "
+  },
+  "ImageMatchType": {
+    "message": "Image match type: "
+  },
+  "PageURL": {
+    "message": "Page URL: "
+  },
+  "ClickHere": {
+    "message": "Click here "
+  },
+  "PageLanguage": {
+    "message": "Page language: "
+  },
+  "ToxicContentBadWordsDetected": {
+    "message": "Toxic content 'bad words' detected: "
+  }
+}

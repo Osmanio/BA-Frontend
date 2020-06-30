@@ -1,0 +1,37 @@
+{
+  "extName": {
+    "message": "Companion - Generiere Metadaten ",
+    "description": "Extension name."
+  },
+  "BestGuessedLabel": {
+    "message": "Beste geschätzte Bezeichnung: ",
+    "description": ""
+  },
+  "ImageFreeOfToxicContent": {
+    "message": "Dieses Bild scheint keine Toxizität zu enthalten. "
+  },
+  "NoRelatedImages": {
+    "message": "Der Companion konnte keine ähnlichen Bilder finden. "
+  },
+  "NoRelatedImagesToClassify": {
+    "message": "Der Companion konnte keine ähnlichen Bilder finden und somit keine Klassifizierung durchführen. "
+  },
+  "ToxicKeywordsFound": {
+    "message": "Das Foto kann Toxizität enthalten. Bitte passe auf! "
+  },
+  "ImageMatchType": {
+    "message": "Bildübereinstimmung: "
+  },
+  "PageURL": {
+    "message": "Seitenurl: "
+  },
+  "ClickHere": {
+    "message": "Hier klicken "
+  },
+  "PageLanguage": {
+    "message": "Sprache der Seite: "
+  },
+  "ToxicContentBadWordsDetected": {
+    "message": "Toxizität bzw. negative Wörter entdeckt: "
+  }
+}
